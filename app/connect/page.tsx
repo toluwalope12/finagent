@@ -163,14 +163,13 @@ export default function ConnectPage() {
               key={src.key}
               onClick={() => connect(src.key)}
               style={{
-                background: 'var(--white)',
+                background: status === 'connected' ? 'rgba(26,74,46,0.04)' : 'var(--white)',
                 border: `1.5px solid ${status === 'connected' ? 'var(--forest)' : status === 'connecting' ? 'var(--earth-light)' : 'var(--sand-dark)'}`,
                 borderRadius: 'var(--radius-sm)',
                 padding: 16, marginBottom: 10,
                 display: 'flex', alignItems: 'center', gap: 14,
                 cursor: status === 'connected' ? 'default' : 'pointer',
                 transition: 'all 0.2s',
-                background: status === 'connected' ? 'rgba(26,74,46,0.04)' : 'var(--white)',
               }}
             >
               {/* Logo */}
