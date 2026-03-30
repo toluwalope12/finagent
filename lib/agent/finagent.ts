@@ -175,7 +175,7 @@ export async function runFinAgent(params: AgentParams): Promise<AgentResult> {
   }, new Date().toISOString());
 
   const tenureMs = Date.now() - new Date(oldestDate).getTime();
-  const businessTenureYears = Math.max(1, Math.round(tenureMs / (1000 * 60 * 60 * 24 * 365)));
+  const businessTenureYears = Math.max(1, Math.floor(tenureMs / (1000 * 60 * 60 * 24 * 365)));
 
   const incomeScore     = Math.min(30, (avgMonthlyIncome / 200000) * 30);
   const consistencyScore = (paymentConsistency / 100) * 30;
