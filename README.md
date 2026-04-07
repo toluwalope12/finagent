@@ -6,7 +6,7 @@ AI-powered credit dossiers for Nigeria's 50 million informal economy workers.
 
 **Live app:** [finagent-phi.vercel.app](https://finagent-phi.vercel.app) &nbsp;|&nbsp; **Built for:** Auth0 "Authorized to Act" Hackathon 2026
 
-**Demo Video** [Demo Video]([[https://youtu.be/fzaun434YKM]](https://youtu.be/fzaun434YKM)) 
+**Demo Video** [Demo Video](https://youtu.be/fzaun434YKM)
 
 ![FinAgent — Connect your financial accounts](docs/screenshot.png)
 
